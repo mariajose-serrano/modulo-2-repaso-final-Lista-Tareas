@@ -7,7 +7,7 @@
 
 :root {
   font-family: "Arial", sans-serif;
-  background-color: #fafafa;
+  background-color: #fff8dc;
   color: #333;
 }
 
@@ -22,12 +22,12 @@ body {
 .header {
   text-align: center;
   margin-bottom: 1rem;
-  border-bottom: 3px solid #ff7043;
+  border-bottom: 3px solid #008080;
 }
 
 .title {
   font-size: 2rem;
-  color: #e64a19;
+  color: #000000;
   padding-bottom: 0.5rem;
 }
 
@@ -46,7 +46,7 @@ body {
   padding: 0.7rem 1rem;
   width: 60%;
   max-width: 400px;
-  border: 2px solid #e64a19;
+  border: 2px solid #008080;
   border-radius: 8px;
   font-size: 1rem;
   outline: none;
@@ -54,7 +54,7 @@ body {
 }
 
 .filter input:focus {
-  border-color: #ff7043;
+  border-color: #90ee90;
   box-shadow: 0 0 5px #ffccbc;
 }
 
@@ -69,7 +69,7 @@ body {
 
 /* 🔸 Cada bloque de tareas */
 .cocinaList > li {
-  background: #fff;
+  background: #90ee90;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1.2rem;
@@ -83,10 +83,10 @@ body {
 
 /* 🔹 Título de cada bloque */
 .cocinaList h3 {
-  color: #e64a19;
+  color: #000000;
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
-  border-bottom: 2px solid #ffccbc;
+  border-bottom: 2px solid #008080;
   padding-bottom: 0.3rem;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .tareasList li {
   padding: 0.3rem 0;
-  border-left: 4px solid #ff7043;
+  border-left: 4px solid #008080;
   padding-left: 0.5rem;
   font-size: 0.95rem;
 }
