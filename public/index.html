@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de tareas de cocina</title>
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./main.css" />
+
+  <!-- Script con defer para esperar a que cargue el DOM -->
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="title">Tareas de cocina</h1>
+  </header>
+
+  <main class="main">
+    <h2>Listado de tareas</h2>
+
+    <!-- 🔍 Input de búsqueda -->
+    <div class="filter">
+      <input type="text" id="searchInput" placeholder="Filtrar tareas..." autocomplete="off" />
+    </div>
+
+    <!-- 🧾 Lista principal de tareas -->
+    <ul id="tareasList" class="cocinaList"></ul>
+
+    <!-- ❤️ Sección de favoritos -->
+    <section class="favorites-section">
+      <h2>Favoritos ❤️</h2>
+      <ul id="favoritesList" class="cocinaList"></ul>
+    </section>
+  </main>
+</body>
+
+</html>

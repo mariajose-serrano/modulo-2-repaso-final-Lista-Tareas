@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Estructura general */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #ff7043;
+}
+
+.title {
+  font-size: 2rem;
+  color: #e64a19;
+  padding-bottom: 0.5rem;
+}
+
+.main {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+/* 🔍 Input de búsqueda */
+.filter {
+  margin: 2rem 0;
+}
+
+.filter input {
+  padding: 0.7rem 1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 2px solid #e64a19;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.filter input:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 5px #ffccbc;
+}
+
+/* 🧩 Lista principal de tareas */
+.cocinaList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* 🔸 Cada bloque de tareas */
+.cocinaList > li {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cocinaList > li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Título de cada bloque */
+.cocinaList h3 {
+  color: #e64a19;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #ffccbc;
+  padding-bottom: 0.3rem;
+}
+
+/* 🔸 Lista de subtareas */
+.tareasList {
+  list-style: none;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.tareasList li {
+  padding: 0.3rem 0;
+  border-left: 4px solid #ff7043;
+  padding-left: 0.5rem;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Preparar los ingredientes",
+    "steps": [
+      "Comprar pasta y salsa de tomate",
+      "Lavar las verduras",
+      "Cortar el ajo y la cebolla"
+    ]
+  },
+  {
+    "name": "Cocinar la pasta",
+    "steps": [
+      "Poner agua a hervir con sal",
+      "Añadir la pasta cuando hierva",
+      "Cocer durante 8-10 minutos",
+      "Escurrir y reservar"
+    ]
+  },
+  {
+    "name": "Preparar la salsa",
+    "steps": [
+      "Saltear el ajo y la cebolla",
+      "Añadir el tomate triturado",
+      "Salpimentar al gusto",
+      "Dejar cocinar 10 minutos"
+    ]
+  },
+  {
+    "name": "Montar y servir",
+    "steps": [
+      "Mezclar la pasta con la salsa",
+      "Espolvorear queso rallado",
+      "Servir caliente 🍝"
+    ]
+  }
+]
